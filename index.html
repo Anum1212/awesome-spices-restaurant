@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Alice:400,700|Roboto:400,700" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/generalCss.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/smallDevices.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/mediumDevices.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/largeDevices.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/footer.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/waterFall-carousel.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script src="js/tweenMax.js"></script>
+</head>
+
+<body>
+  <div class="main-wrapper">
+
+    <!-- landing image -->
+    <div class="site-section landing-image">
+      <nav class="transparent z-depth-0" role="navigation">
+        <div class="nav-wrapper container">
+          <ul class="left hide-on-med-and-down">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- contact div -->
+    <div class="contact">
+      <img src="/images/contact.png">
+    </div>
+
+    <!-- food showcase waterWheel-->
+    <div class="site-section food-showCase">
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="logo">
+        <img src="/images/food_showCase.png" alt="">
+      </div>
+      <div class="text">
+        <h4>EXPERIENCE THE BEST FOOD</h4>
+        <h6>OUR FEATURE RECIPES</h6>
+      </div>
+      <div class="food-carousel">
+        <div id="carousel">
+          <div class="item">
+            <img src="/images/01.jpg" id="item-1" />
+            <div class="caption carousel_item carousel_item1">
+              <span class="carousel_desc">
+                <h6> Dish 1 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/02.jpg" id="item-2" />
+            <div class="caption carousel_item carousel_item2">
+              <span class="carousel_desc">
+                <h6> Dish 2 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/03.jpg" id="item-3" />
+            <div class="caption carousel_item carousel_item3">
+              <span class="carousel_desc">
+                <h6> Dish 3 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/04.jpg" id="item-4" />
+            <div class="caption carousel_item carousel_item4">
+              <span class="carousel_desc">
+                <h6> Dish 4 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/04.jpg" id="item-" />
+            <div class="caption carousel_item carousel_item5">
+              <span class="carousel_desc">
+                <h6> Dish 7 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/03.jpg" id="item-6" />
+            <div class="caption carousel_item carousel_item6">
+              <span class="carousel_desc">
+                <h6> Dish 6 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/02.jpg" id="item-7" />
+            <div class="caption carousel_item carousel_item7">
+              <span class="carousel_desc">
+                <h6> Dish 5 </h6>
+                <p> Lorem ipsum dolor sit amet consectetur </p>
+                <br>
+                <button class="waves-effect waves-light btn red">Know More</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- reservation -->
+    <div class="site-section reservation">
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="logo">
+        <img src="/images/fork-knife-grey.png" alt="">
+      </div>
+
+      <div class="text">
+        <h4>EXPERIENCE THE BEST FOOD</h4>
+        <h6>OUR FEATURE RECIPES</h6>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="container my-card">
+        <div class="row">
+
+          <!-- for large display -->
+          <div class="same-size-div hide-on-small-only">
+            <div class="col s12 m3 image">
+              <img id="reservation-image" src="/images/reservation-image.png" alt="">
+            </div> <!-- left part end -->
+
+
+            <div class="col s12 m9 right-form" id="reservation-form">
+
+              <div class="section">
+                <div class="row center-align">
+                  <div class="col s12 left-align" style="margin-top:-30px">
+                    <p>Select your dining space </p>
+                  </div>
+                  <div class="col s12 m6 xl2 reserve">
+                    <img id="2-person-reservation-grey" class="grey-reserve" src="/images/2-person-reservation-grey.png"
+                      alt="">
+                    <img id="2-person-reservation-red" class="red-reserve" src="/images/2-person-reservation-red.png"
+                      alt="">
+                  </div>
+                  <div class="col s12 m6 xl2 offset-xl1 reserve">
+                    <img id="4-person-reservation-grey" class="grey-reserve" src="/images/4-person-reservation-grey.png"
+                      alt="">
+                    <img id="4-person-reservation-red" class="red-reserve" src="/images/4-person-reservation-red.png"
+                      alt="">
+                  </div>
+                  <div class="col s12 m6 xl2 offset-xl1 reserve">
+                    <img id="8-person-reservation-grey" class="grey-reserve" src="/images/8-person-reservation-grey.png"
+                      alt="">
+                    <img id="8-person-reservation-red" class="red-reserve" src="/images/8-person-reservation-red.png"
+                      alt="">
+                  </div>
+                  <div class="col s12 m6 xl2 offset-xl1 reserve">
+                    <img id="banquet-reservation-grey" class="grey-reserve" src="/images/banquet-reservation-grey.png"
+                      alt="">
+                    <img id="banquet-reservation-red" class="red-reserve" src="/images/banquet-reservation-red.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="spacer"></div>
+              <div class="section">
+                <div class="row">
+                  <div class="input-field col s12 m4">
+                    <input placeholder="For Your Choice" id="choice" type="text">
+                    <label for="choice">Choice</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <select>
+                      <option value="" selected>Occasion</option>
+                      <option value="1">Wedding</option>
+                      <option value="2">Anniversary</option>
+                      <option value="3">Birthday</option>
+                      <option value="3">Etc</option>
+                    </select>
+                    <label for="occasion">Occasion</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <select>
+                      <option value="" selected>Preferred Food</option>
+                      <option value="1">Italian</option>
+                      <option value="2">Chinese</option>
+                      <option value="3">Asian</option>
+                      <option value="3">Continental</option>
+                    </select>
+                    <label for="preferred-food<">Preferred food</label>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="spacer"></div>
+              <div class="section">
+                <div class="row">
+                  <div class="input-field col s12 m4">
+                    <input placeholder="Name" id="name" type="text">
+                    <label forPhone Number="Name">Name</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <input placeholder="Email" id="email" type="text">
+                    <label for="Email">Email</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <input placeholder="Phone Number" id="phone-number" type="text">
+                    <label for="Phone Number">Phone Number</label>
+                  </div>
+                  <div class="col s7 offset-s5 hide-on-small-only">
+                    <p class="sub-text"> Verify your booking via your mobile phone <a class="waves-effect waves-light red btn">Book
+                        Now</a></p>
+                  </div>
+                  <div class="col s12 hide-on-med-and-up center-align">
+                    <p class="sub-text"> Verify your booking via your mobile phone <br><br> <a class="waves-effect waves-light red btn">Book
+                        Now</a></p>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- right form end -->
+          </div>
+
+
+
+          <!-- for mobile display -->
+          <div class="hide-on-med-and-up">
+            <div class="col s12 m3 image">
+              <img id="reservation-image" src="/images/reservation-image.png" alt="">
+            </div> <!-- left part end -->
+
+
+            <div class="col s12 right-form" id="reservation-form">
+
+              <div class="section">
+                <div class="row center-align">
+                  <div class="col s12 center-align">
+                    <h5>Select your dining space </h5>
+                  </div>
+                  <div class="spacer"></div>
+                  <div class="spacer"></div>
+                  <div class="col s12 reserve">
+                    <img id="2-person-reservation-grey-mob" class="grey-reserve-mob" src="/images/2-person-reservation-grey.png"
+                      alt="">
+                    <img id="2-person-reservation-red-mob" class="red-reserve-mob" src="/images/2-person-reservation-red.png"
+                      alt="">
+                  </div>
+                  <div class="col s12 offset-xl1 reserve">
+                    <img id="4-person-reservation-grey-mob" class="grey-reserve-mob" src="/images/4-person-reservation-grey.png"
+                      alt="">
+                    <img id="4-person-reservation-red-mob" class="red-reserve-mob" src="/images/4-person-reservation-red.png"
+                      alt="">
+                  </div>
+                  <div class="col s12 offset-xl1 reserve">
+                    <img id="8-person-reservation-grey-mob" class="grey-reserve-mob" src="/images/8-person-reservation-grey.png"
+                      alt="">
+                    <img id="8-person-reservation-red-mob" class="red-reserve-mob" src="/images/8-person-reservation-red.png"
+                      alt="">
+                  </div>
+                  <div class="col s12 offset-xl1 reserve">
+                    <img id="banquet-reservation-grey-mob" class="grey-reserve-mob" src="/images/banquet-reservation-grey.png"
+                      alt="">
+                    <img id="banquet-reservation-red-mob" class="red-reserve-mob" src="/images/banquet-reservation-red.png"
+                      alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="section">
+                <div class="row">
+                  <div class="input-field col s12 m4">
+                    <input placeholder="For Your Choice" id="choice" type="text">
+                    <label for="choice">Choice</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <select>
+                      <option value="" selected>Occasion</option>
+                      <option value="1">Wedding</option>
+                      <option value="2">Anniversary</option>
+                      <option value="3">Birthday</option>
+                      <option value="3">Etc</option>
+                    </select>
+                    <label for="occasion">Occasion</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <select>
+                      <option value="" selected>Preferred Food</option>
+                      <option value="1">Italian</option>
+                      <option value="2">Chinese</option>
+                      <option value="3">Asian</option>
+                      <option value="3">Continental</option>
+                    </select>
+                    <label for="preferred-food<">Preferred food</label>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="section">
+                <div class="row">
+                  <div class="input-field col s12 m4">
+                    <input placeholder="Name" id="name" type="text">
+                    <label forPhone Number="Name">Name</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <input placeholder="Email" id="email" type="text">
+                    <label for="Email">Email</label>
+                  </div>
+                  <div class="input-field col s12 m4">
+                    <input placeholder="Phone Number" id="phone-number" type="text">
+                    <label for="Phone Number">Phone Number</label>
+                  </div>
+                  <div class="col s7 offset-s5 hide-on-small-only">
+                    <p class="sub-text"> Verify your booking via your mobile phone <a class="waves-effect waves-light red btn">Book
+                        Now</a></p>
+                  </div>
+                  <div class="col s12 hide-on-med-and-up center-align">
+                    <p class="sub-text"> Verify your booking via your mobile phone <br><br> <a class="waves-effect waves-light red btn">Book
+                        Now</a></p>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- right form end -->
+          </div>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+    </div>
+
+
+    <!-- mobile app section -->
+    <div class="app-section">
+      <div class="container">
+
+        <div class="row center-align app-section hide-on-small-only">
+          <div class="col m4 image">
+            <img src="/images/app.png" alt="">
+          </div>
+          <div class="col m8 text">
+            <h4>Life's become more easier!</h4>
+            <p>Download our mobile app and order from anywhere, and its free :)</p>
+            <a class="waves-effect waves-light white red-text btn">Download Now</a>
+          </div>
+        </div>
+
+
+        <div class="row center-align app-section hide-on-med-and-up">
+          <div class="image">
+            <img src="/images/app.png" alt="">
+          </div>
+          <div class="text">
+            <h4>Life's become more easier!</h4>
+            <p>Download our mobile app and order from anywhere, and its free :)</p>
+            <a class="waves-effect waves-light white red-text btn">Download Now</a>
+          </div>
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- signature food menu -->
+    <div class="row site-section signature-food-menu">
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="logo">
+        <img src="/images/fork-knife-white.png" alt="">
+      </div>
+      <div class="text">
+        <h4>EXPERIENCE THE BEST FOOD</h4>
+        <h6>OUR FEATURE RECIPES</h6>
+      </div>
+
+
+      <!-- For large display -->
+      <div class="container hide-on-small-only">
+        <!-- breakfast -->
+        <div class="row breakfast">
+          <div class="col m4 image">
+            <img src="/images/breakfast.jpg" alt="">
+          </div>
+          <div class="col m8 details">
+            <div class="details section left-align">
+              <p> <span class="heading">Breakfast</span>
+                <br>
+                <span class="sub-text">Fresh and healthy breakfast available from 7 am</span>
+              </p>
+              <div class="divider"></div>
+              <p>
+                <span class="sub-text">Breakfast starts from</span>
+              </p>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="details card-section row">
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-1.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$20</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-2.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$30</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-3.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$40</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <!-- lunch -->
+        <div class="row lunch">
+          <div class="col m8 details">
+            <div class="details section right-align">
+              <p> <span class="heading">Lunch</span>
+                <br>
+                <span class="sub-text">Fresh and healthy lunch available from 12 pm</span>
+              </p>
+              <div class="divider"></div>
+              <p>
+                <span class="sub-text">Lunch starts from</span>
+              </p>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="details card-section row">
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-1.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$20</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-2.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$30</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-3.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$40</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 image">
+            <img src="/images/lunch.jpg" alt="">
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <!-- dinner -->
+        <div class="row dinner">
+          <div class="col m4 image">
+            <img src="/images/dinner.jpg" alt="">
+          </div>
+          <div class="col m8 details">
+            <div class="details section left-align">
+              <p> <span class="heading">Dinner</span>
+                <br>
+                <span class="sub-text">Fresh and healthy dinner available from 6 pm</span>
+              </p>
+              <div class="divider"></div>
+              <p>
+                <span class="sub-text">Dinner starts from</span>
+              </p>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="details section left-align card-section row">
+              <div class="my-card col m3 offset-m1">
+                <div class="card-img">
+                  <img src="images/menu-item-1.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$20</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="my-card col m3 offset-m1 offset-xl1">
+                <div class="card-img">
+                  <img src="images/menu-item-2.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$30</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="my-card col m3 offset-m1 offset-xl1">
+                <div class="card-img">
+                  <img src="images/menu-item-3.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$40</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- container end -->
+
+
+      <!-- For small display -->
+      <div class="container hide-on-med-and-up center-align">
+
+        <!-- breakfast -->
+        <div class="breakfast">
+          <div class="image">
+            <img src="/images/breakfast.jpg" alt="">
+          </div>
+          <div class="details">
+            <div class="details section">
+              <p> <span class="heading">Breakfast</span>
+                <br>
+                <span class="sub-text">Fresh and healthy breakfast available from 7 am</span>
+              </p>
+              <div class="divider"></div>
+            </div>
+            <div class="details card-section">
+              <p>
+                <span class="sub-text">Breakfast starts from</span>
+              </p>
+              <br>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-1.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$20</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-2.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$30</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-3.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$40</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <!-- lunch -->
+        <div class="lunch">
+
+          <div class="image">
+            <img src="/images/lunch.jpg" alt="">
+          </div>
+          <div class="details">
+            <div class="details section">
+              <p> <span class="heading">Lunch</span>
+                <br>
+                <span class="sub-text">Fresh and healthy lunch available from 12 pm</span>
+              </p>
+              <div class="divider"></div>
+            </div>
+            <div class="details card-section">
+              <p>
+                <span class="sub-text">Lunch starts from</span>
+              </p>
+              <br>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-1.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$20</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-2.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$30</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-3.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$40</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <!-- dinner -->
+        <div class="dinner">
+          <div class="image">
+            <img src="/images/dinner.jpg" alt="">
+          </div>
+          <div class="col s12 details">
+            <div class="details section">
+              <p> <span class="heading">Dinner</span>
+                <br>
+                <span class="sub-text">Fresh and healthy dinner available from 6 pm</span>
+              </p>
+              <div class="divider"></div>
+            </div>
+            <div class="details card-section">
+              <p>
+                <span class="sub-text">Dinner starts from</span>
+              </p>
+              <br>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-1.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$20</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-2.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$30</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+              <div class="my-card">
+                <div class="card-img">
+                  <img src="images/menu-item-3.jpg" alt="">
+                </div>
+                <div class="card-description center-align">
+                  <p>
+                    <span class="price">$40</span>
+                    <br>
+                    <span class="recipe-name">Recipe Name</span>
+                  </p>
+                </div>
+              </div>
+              <div class="spacer"></div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- container end -->
+    </div>
+
+
+    <!-- view all food menu section -->
+    <div class="site-section food-menu-section row center-align">
+      <div class="container">
+        <div class="image-section col col s12 m4">
+          <img src="images/our-exclusive-menu.png" alt="">
+        </div>
+        <div class="text-section col col s12 m4">EXPERIENCE OUR DELICIOUS MENU</div>
+        <div class="btn-section col col s12 m4"><a class="waves-effect waves-light red btn">VIEW NOW</a></div>
+      </div>
+    </div>
+
+
+    <!-- chefs -->
+    <div class="chefs row">
+      <div class="container">
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="col s12 m4 offset-m1 image">
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+          <img src="images/3-chefs.png" alt="">
+        </div>
+        <div class="col m5 offset-m2 text hide-on-small-only">
+          <p><span class="heading">Meet our great</span><br> <span class="chefsProminent">Chefs</span></p>
+          <ul>
+            <li>
+              <h6>Chef 1</h6>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            </li>
+            <li>
+              <h6>Chef 2</h6>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            </li>
+            <li>
+              <h6>Chef 3</h6>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 text text-mobile hide-on-med-and-up">
+          <p><span class="heading">Meet our great</span><br> <span class="chefsProminent">Chefs</span></p>
+          <ul>
+            <li>
+              <h6>Chef 1</h6>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            </li>
+            <li>
+              <h6>Chef 2</h6>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            </li>
+            <li>
+              <h6>Chef 3</h6>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- contact us -->
+    <div class="row contact-us">
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="logo">
+        <img src="images/fork-knife-grey.png" alt="">
+      </div>
+      <div class="text">
+        <h4>CONTACT US</h4>
+        <h6>WE ARE HERE TO LISTEN TO YOU</h6>
+      </div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="container row form">
+        <div class="input-field col s12 m5 offset-m1 ">
+          <input id="contact-us-name" type="text" class="validate">
+          <label for="contact-us-name">Enter your name</label>
+        </div>
+        <div class="input-field col s12 m5">
+          <input id="contact-us-email" type="text" class="validate">
+          <label for="contact-us-email">Enter your Email-id</label>
+        </div>
+      </div>
+      <div class="container row form">
+        <div class="input-field col s12 m5 offset-m1">
+          <input id="contact-us-cmnt" type="text" class="validate">
+          <label for="contact-us-cmnt">Enter your comment</label>
+        </div>
+        <div class="input-field col s12 m1">
+          <button class="waves-effect waves-light btn btn-large red">Submit</button>
+        </div>
+      </div>
+      <div class="container visit-timing-container left-align">
+        <div class="row visit-us">
+          <div class="col s12 m4 image">
+            <img src="images/visit.jpg" alt="">
+          </div>
+          <div class="col s12 m8 text">
+            <div class="spacer"></div>
+            <h4>Visit us today</h4>
+            <div class="spacer"></div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo neque ab qui voluptates consectetur
+              dolor, quibusdam reiciendis magnam perferendis architecto temporibus commodi expedita voluptas blanditiis
+              tenetur corrupti delectus in eligendi?
+              Itaque sit voluptatum suscipit beatae laborum. Architecto voluptatibus est illum tempora cupiditate
+              doloribus autem in hic rerum quis earum saepe dolor unde fugit aspernatur doloremque, commodi debitis
+              natus animi labore?
+              Adipisci maxime odit eos? Repellendus quibusdam quidem, necessitatibus nam ut fuga unde molestias eum
+              sunt atque aliquam adipisci eveniet.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo neque ab qui voluptates consectetur
+              dolor, quibusdam reiciendis magnam perferendis architecto temporibus commodi expedita voluptas blanditiis
+              tenetur corrupti delectus in eligendi?
+              Itaque sit voluptatum suscipit beatae laborum. Architecto voluptatibus est illum tempora cupiditate
+              doloribus autem in hic rerum quis earum saepe dolor unde fugit aspernatur doloremque, commodi debitis
+              natus animi labore?
+              Adipisci maxime odit eos? Repellendus quibusdam quidem, necessitatibus nam ut fuga unde molestias eum
+              sunt atque aliquam adipisci eveniet.</p>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="divider"></div>
+        <div class="timings">
+          <div class="text">
+            <h4>We are open at</h4>
+          </div>
+          <div class="row timing-container">
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Monday</span></div>
+              <div class="time"><span>11am to 11pm</span></div>
+            </div>
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Tuesday</span></div>
+              <div class="time"><span>11am to 11pm</span></div>
+            </div>
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Wednesday</span></div>
+              <div class="time"><span>11am to 11pm</span></div>
+            </div>
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Thursday</span></div>
+              <div class="time"><span>11am to 11pm</span></div>
+            </div>
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Friday</span></div>
+              <div class="time"><span>11am to 02am</span></div>
+            </div>
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Saturday</span></div>
+              <div class="time"><span>11am to 02am</span></div>
+            </div>
+            <div class="col s12 m6 l4 xl3 timing-group row">
+              <div class="day"><span>Sunday</span></div>
+              <div class="time"><span>11am to 02am</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="spacer"></div>
+      </div>
+    </div>
+
+  </div> <!-- main-wrapper end -->
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <b>Project Status:<span class="project-state"> Under development</span></b>
+      <br>
+      <b> get in touch</b>
+      <br>
+      <a href="mailto:anamamer0@gmail.com" class="my-email">Anum Amir(anamamer0@gmail.com)</a>
+      <br>
+      <a href="https://github.com/Anum1212/awesome-spices-restaurant" class="my-project-code">Source Code</a>
+      <br>
+      <a href="http://aua.net.pk" class="my-other-projects">Other Projects</a>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script src="js/waterFall-carousel.js"></script>
+  <script src="js/touchSwipe.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      // initialize material framework component
+      $('select').formSelect();
+
+      // waterwheel carousel custom settings
+      $("#carousel").waterwheelCarousel({
+        separation: 110,
+        separationMultiplier: 0.9,
+        opacityMultiplier: 1,
+        sizeMultiplier: 0.9,
+      });
+
+      // hide carousel dish desc by default 
+      $(".carousel_desc").hide();
+      // hide red reservation image by default 
+      $(".red-reserve").hide();
+
+
+      // when a reservation type is selected
+      // 2 person
+      $('#2-person-reservation-grey').click(function (e) {
+        $(".grey-reserve").show();
+        $(".red-reserve").hide();
+        $('#2-person-reservation-red').show();
+        $('#2-person-reservation-grey').hide();
+      });
+
+      // 4 Person
+      $('#4-person-reservation-grey').click(function (e) {
+        $(".grey-reserve").show();
+        $(".red-reserve").hide();
+        $('#4-person-reservation-red').show();
+        $('#4-person-reservation-grey').hide();
+      });
+
+      // 8 Person
+      $('#8-person-reservation-grey').click(function (e) {
+        $(".grey-reserve").show();
+        $(".red-reserve").hide();
+        $('#8-person-reservation-red').show();
+        $('#8-person-reservation-grey').hide();
+      });
+
+      // Whole Banquet
+      $('#banquet-reservation-grey').click(function (e) {
+        $(".grey-reserve").show();
+        $(".red-reserve").hide();
+        $('#banquet-reservation-red').show();
+        $('#banquet-reservation-grey').hide();
+      });
+
+      // for mobile
+      // hide red reservation image by default 
+      $(".red-reserve-mob").hide();
+
+
+      // when a reservation type is selected
+      // 2 person
+      $('#2-person-reservation-grey-mob').click(function (e) {
+        $(".grey-reserve-mob").show();
+        $(".red-reserve-mob").hide();
+        $('#2-person-reservation-red-mob').show();
+        $('#2-person-reservation-grey-mob').hide();
+      });
+
+      // 4 Person
+      $('#4-person-reservation-grey-mob').click(function (e) {
+        $(".grey-reserve-mob").show();
+        $(".red-reserve-mob").hide();
+        $('#4-person-reservation-red-mob').show();
+        $('#4-person-reservation-grey-mob').hide();
+      });
+
+      // 8 Person
+      $('#8-person-reservation-grey-mob').click(function (e) {
+        $(".grey-reserve-mob").show();
+        $(".red-reserve-mob").hide();
+        $('#8-person-reservation-red-mob').show();
+        $('#8-person-reservation-grey-mob').hide();
+      });
+
+      // Whole Banquet
+      $('#banquet-reservation-grey-mob').click(function (e) {
+        $(".grey-reserve-mob").show();
+        $(".red-reserve-mob").hide();
+        $('#banquet-reservation-red-mob').show();
+        $('#banquet-reservation-grey-mob').hide();
+      });
+    });
+  </script>
+</body>
+
+</html>

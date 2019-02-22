@@ -1,0 +1,70 @@
+/*--water_wheel_carousel--*/
+
+#carousel {
+    width: 100%;
+    margin: 0px auto;
+    height: 500px;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -100px;
+}
+
+#carousel img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#carousel>div {
+    visibility: hidden;
+    cursor: pointer;
+   }
+
+#carousel .caption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+
+.carousel_desc {
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    height: 100%;
+    bottom: -170px;
+    color: #B3463B;
+}
+
+.carousel_desc h6{
+    line-height: 1em;
+    font-size: 12px;
+    color: #B3463B
+}
+
+.carousel_desc p{
+    line-height: 1.3em;
+    margin-top: -5px;
+    font-size: 10px;
+    color: #707E7E;
+}
+
+.activeDot{
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #83D602;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: 67px
+}

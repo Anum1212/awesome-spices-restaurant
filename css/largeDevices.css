@@ -1,0 +1,60 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .landing-image {
+    height: 115vh;
+  }
+
+  .signature-food-menu .breakfast .details,
+  .signature-food-menu .dinner .details {
+    margin-left: -11px;
+    padding-left: 15px
+  }
+
+  .signature-food-menu .lunch .details {
+    margin-right: -17px;
+    padding-right: 15px;
+  }
+
+  .chefs .image img {
+    min-width: 100%;
+    height: 450px;
+  }
+
+  .visit-us {
+    display: flex;
+  }
+
+  .visit-us .image img {
+    max-width: 100%;
+    /* height: 100%; */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .signature-food-menu .breakfast .details,
+  .signature-food-menu .dinner .details {
+    margin-left: -11px;
+    padding-left: 15px;
+  }
+
+  .signature-food-menu .lunch .details {
+    margin-right: -17px;
+    padding-right: 15px;
+  }
+
+  .chefs .image img {
+    min-width: 100%;
+    height: 450px;
+  }
+
+  .visit-us {
+    display: flex;
+  }
+
+  .visit-us .image img {
+    max-width: 100%;
+  }
+
+}

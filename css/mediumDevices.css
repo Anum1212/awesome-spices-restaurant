@@ -1,0 +1,40 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .signature-food-menu .breakfast,
+  .signature-food-menu .lunch,
+  .signature-food-menu .dinner {
+    display: flex;
+  }
+
+  .signature-food-menu .breakfast img,
+  .signature-food-menu .lunch img,
+  .signature-food-menu .dinner img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .signature-food-menu .breakfast .details,
+  .signature-food-menu .dinner .details {
+    margin-left: -11px;
+    padding-left: 15px
+  }
+
+  .signature-food-menu .lunch .details {
+    margin-right: -17px;
+    padding-right: 15px;
+  }
+
+  .chefs .image img {
+    min-width: 100%;
+    height: 350px;
+  }
+
+  .visit-us .image img {
+    max-width: 100%;
+  }
+
+  .timings {
+    text-align: left;
+  }
+}

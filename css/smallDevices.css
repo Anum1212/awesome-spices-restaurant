@@ -1,0 +1,91 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-wrapper {
+    overflow-x: hidden
+  }
+
+  .reservation .my-card .image img {
+    width: 100%;
+    margin-bottom: -1em;
+  }
+
+  .signature-food-menu .breakfast img,
+  .signature-food-menu .lunch img,
+  .signature-food-menu .dinner img {
+    width: 100%;
+    margin-bottom: -1em;
+  }
+
+  .signature-food-menu .breakfast .card-section .my-card,
+  .signature-food-menu .lunch .card-section .my-card,
+  .signature-food-menu .dinner .card-section .my-card {
+    margin: auto
+  }
+
+  .chefs .image img {
+    width: 100%;
+  }
+
+  .chefs .text-mobile {
+    margin: 50px !important;
+  }
+
+  .visit-us .image img {
+    max-width: 100%;
+  }
+
+  .timings {
+    text-align: center;
+  }
+
+  .timings .timing-container {
+    margin-left: 55px
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .hideOnSmall {
+    display: none;
+  }
+
+  .reservation .my-card .image img {
+    width: 100%;
+    margin-bottom: -1em;
+  }
+
+  .signature-food-menu .breakfast,
+  .signature-food-menu .lunch,
+  .signature-food-menu .dinner {
+    display: flex;
+  }
+
+  .signature-food-menu .breakfast img,
+  .signature-food-menu .lunch img,
+  .signature-food-menu .dinner img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .chefs .image img {
+    width: 100%;
+  }
+
+  .chefs .text-mobile {
+    margin: 50px !important;
+  }
+
+  .visit-us .image img {
+    max-width: 100%;
+  }
+
+  .timings {
+    text-align: center;
+  }
+
+  .timings .timing-container {
+    margin-left: 55px
+  }
+
+
+}
