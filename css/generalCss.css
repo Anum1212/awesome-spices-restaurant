@@ -231,17 +231,17 @@ p {
   padding-bottom: 45px;
 }
 
-.food-menu-section .image-section img {
+.food-menu-section .image img {
   width: 200px
 }
 
-.food-menu-section .text-section {
+.food-menu-section .text {
   font-size: 1.5em;
   font-family: 'Alice', serif;
 }
 
-.food-menu-section .text-section,
-.food-menu-section .btn-section {
+.food-menu-section .text,
+.food-menu-section .button {
   margin-top: 70px
 }
 
